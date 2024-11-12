@@ -18,8 +18,8 @@ const themes = [
   'light', 'dark', 'cupcake', 'bumblebee', 'emerald', 'corporate', 'synthwave', 'retro', 'cyberpunk', 'valentine', 'halloween', 'garden', 'forest', 'aqua', 'lofi', 'pastel', 'fantasy', 'wireframe', 'black', 'luxury', 'dracula', 'cmyk', 'autumn', 'business', 'acid', 'lemonade', 'night', 'coffee', 'winter'
 ];
 
-const page = () => {
-  const [mnemonic, setMnemonic] = useState("dawn shallow blast guide true cake glow lesson refuse cost knee excuse");
+const Page = () => {
+  const [mnemonic, setMnemonic] = useState("");
   const [solIndex, setSolIndex] = useState(0);
   const [ethIndex, setEthIndex] = useState(0);
   const [wallets, setWallets] = useState([]);
@@ -176,4 +176,4 @@ const page = () => {
   );
 }
 
-export default page;
+export default Page;
